@@ -1,0 +1,263 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8" />
+    <title>Serafeim Stamou CV</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+    <style>
+      h1, h2, h3, h4, h5, h6 {
+            border: none;
+            background: none;
+            margin: 0px;
+            padding: 0px;
+        }
+
+     body {
+            background-color: #ebeced;
+            font-family: sans-serif;
+        }
+
+     .main {
+            width: 650px;
+            margin: 0 auto;
+            box-shadow: 0px 0px 4px 2px rgba(159,159,159,0.20);
+        }
+     
+     .main .personal-details {
+                border: 1px solid;
+                background-color: #ffff99;
+            }
+     
+     .main .personal-details .name {
+                    padding: 0px 15px;
+                    height: 45px;
+                    text-align: center;
+                }
+
+     .main .personal-details .contact-info {
+            display: flex;
+            height: 45px;
+            justify-content: space-between;
+            padding: 5px 10px;
+        }
+
+     .main .main-info {
+                display: flex;
+            }
+
+     .main .main-info .skills {
+                    width: 50%;
+                    border: 1px solid;
+                    background-color: #e6e6e6;
+                }
+
+     .main .main-info .story {
+                    width: 50%;
+                    border: 1px solid;
+                    background-color: #e6e6ff;
+                }
+
+     li {
+            background-color: #99ff99;
+            width: 80%;
+            text-align: center;
+            padding: 2px;
+            border: 2px solid;
+            margin: 5px 0px 5px 0px;
+            border-radius: 10px;
+        }
+
+     li:hover {
+                background-color: #66ff66;
+                padding: 3px;
+            }
+
+     ul{
+         list-style:none;
+     }
+
+    .project-link {
+            background-color: #4dff4d;
+            padding: 3px 20px 3px 20px;
+            border: 1px solid green;
+            border-radius:20px;
+            margin-left: 110px;
+        }
+
+    .project-link:hover{
+       padding:0px;
+    }
+
+        input {
+            display: none;
+        }
+
+        label {
+            display: block;
+            cursor: pointer;
+            background: #e6e6ff;
+        }
+
+        .content {
+            background: #e6e6ff;
+            padding: 10px 25px;
+            border: none;
+            margin: 0 0 1px 0;
+        }
+
+        input + label + .content {
+            display: none;
+        }
+
+        input:checked + label + .content {
+            display: block;
+        }
+    </style>
+
+
+</head>
+<body>
+
+    <div class="main">
+        <section class="personal-details">
+            <div class="name">
+                <h1>Serafeim Stamou</h1>
+            </div>
+            <div class="title">
+                <h2 style="text-align:center">Junior Developer</h2>
+            </div>
+            <div class="contact-info">
+                <div class="email">
+                    <p><i class="fa fa-envelope" style="margin-left:2px;"></i><strong style="margin-left:2px;"></strong></p>
+                </div>
+                <div class="github">
+                    <p>
+                     <i class="fa fa-github" style="margin-right:2px;"></i><a href="https://github.com/SerafeimStamou" alt="https://github.com/SerafeimStamou" target="_blank">Github</a>
+                    </p>
+                </div>
+                <div class="linkedin">
+                    <p>
+                        <i class="fa fa-linkedin-square"></i>
+                    </p>
+                </div>
+                <div class="phone">
+                    <p>
+                        <i class="fa fa-mobile" style="margin-right:2px;"></i><strong style="margin-right:2px;"></strong>
+                    </p>
+                    
+                   
+                </div>
+
+            </div>
+        </section>
+
+        <section class="main-info">
+            <div class="story">
+                <div class="about-me">
+                    <h3 style="margin-top:10px; text-align:center;">ABOUT ME</h3>
+                    Enthusiastic about technology and especially programming. Problem solving is something that always intrigued me. The more difficult the problem, the greater the motivation to solve it. Very organized person who can work both in a team or alone with the same good results.
+                </div>
+                <div class="education">
+                    <h3 style="margin-top:10px; text-align:center;">EDUCATION</h3>
+                    <p><i class="fa fa-calendar" style="margin-left:2px;"></i><strong style="margin-left:2px;"> Jun 2020 – Jan 2021<br />
+                            Coding Bootcamp, C# Stream – <br />
+                            PeopleCert Education (www.peoplecertedu.org)</strong>
+</p>
+                    <p>
+                        500 hrs of intensive training in Software Development, Object Oriented Programming, Functional Programming, Debugging Techniques,
+                        Test Driven Development, Common Architecture Patterns, Data/Class Modelling.
+                    </p>
+                    <p><i class="fa fa-calendar" style="margin-left:2px;"></i><strong style="margin-left:2px;">Feb 2007-Sep 2015 <br />
+                        Technological Educational Institute of Chalkida</strong>
+                    </p>
+                    <p><strong>BSc Electrical Engineer</strong></p>
+                </div>
+                <div class"certifications">
+                    <h3 style="margin-top:10px; text-align:center;">CERTIFICATIONS</h3>
+                    <p><strong>PeopleCert Software Developer C# (Foundation)</strong></p>
+                    <p><strong>PeopleCert Software Developer C# (Advanced)</strong></p>
+                </div>
+                <div class="work-experience">
+                    <h3 style="margin-top:10px; text-align:center">WORK EXPERIENCE</h3>
+                    <p>
+                        <i class="fa fa-calendar" style="margin-left:2px;"></i><strong style="margin-left:2px;">
+                            Mar 2021 - May 2021 <br />
+                            On Line Data
+                        </strong>
+                    </p>
+                    <input type="checkbox" id="FirstDeveloperJob" />
+                    <label for="FirstDeveloperJob">Software Developer (click to see details)</label>
+                    <div class="content">
+                        <p>
+                            -Finding and fixing bugs <br />
+                            -Adding new features<br />
+                            <br />
+                            Technologies I used: .NET Web API, Angular, SQL Server
+                        </p>
+                    </div>
+                    <p>
+                        <i class="fa fa-calendar" style="margin-left:2px;"></i><strong style="margin-left:2px;">
+                            Nov 2015 - Feb 2020 <br />
+                            FREE LINE IKE
+                        </strong>
+                    </p>
+                    <p>Customer Service</p>
+                </div>
+            </div>
+            <div class="skills">
+                <h3 style="margin-top:10px; text-align:center">TECHNICAL SKILLS</h3><br>
+                <div class="lists" style="display:flex;">
+                    <div class="first-list">
+                        <ul class="coloured">
+                            <li>C#</li>
+                            <li>SQL Server</li>
+                            <li>Javascript</li>
+                            <li>ASP.NET MVC</li>
+                            <li>Web API</li>
+                            <li>Entity Framework</li>
+                        </ul>
+                    </div>
+                    <div class="second-list">
+                        <ul class="coloured">
+                            <li>Dapper</li>
+                            <li>WinForms</li>
+                            <li>HTML / CSS</li>
+                            <li>Git</li>
+                            <li>jQuery</li>
+                            <li>Angular</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="projects">
+                    <h3 style="text-align:center">PROJECTS</h3>
+                    <p><i class="fa fa-floppy-o" style="margin:0px 1px 0px 3px;"></i><strong>SchoolApp</strong></p>
+                    <p>
+                        Desktop application with CRUD operations.WinForms and Dapper.
+                    </p>
+                    <a href="https://github.com/SerafeimStamou/SchoolApp" alt="https://github.com/SerafeimStamou/SchoolApp" target="_blank" class="project-link">Click here</a>
+                    <p><i class="fa fa-floppy-o" style="margin:0px 1px 0px 3px;"></i><strong>MVCSchoolApp</strong></p>
+                    <p>
+                        The same logic as SchoolApp but with ASP.NET MVC and Entity Framework.
+                    </p>
+                    <a href="https://github.com/SerafeimStamou/MVCSchoolApp" alt="https://github.com/SerafeimStamou/MVCSchoolApp" target="_blank" class="project-link">Click here</a>
+                    <p><i class="fa fa-floppy-o" style="margin:0px 1px 0px 3px;"></i><strong>NobelPrizes</strong></p>
+                    <p>
+                        .NET Core console application that calls an external API and shows all Nobel Prizes and winners.
+                    </p>
+                    <a href="https://github.com/SerafeimStamou/NobelPrizes" alt="https://github.com/SerafeimStamou/NobelPrizes" target="_blank" class="project-link">Click here</a>
+                </div>
+                <div class="languages">
+                    <h3 style="text-align:center; margin-top:30px;">LANGUAGES</h3>
+                    <ul class="coloured">
+                        <li>Greek (Native)</li>
+                        <li>English (Lower)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
